@@ -1,16 +1,25 @@
-div {
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.circle {
   height: 100px;
   width: 100px;
   line-height: 100px;
+  border-radius: 50px;
   border: #6495ed;
   background-color: #69D2E7;
-  border-radius: 50px;
-  margin: auto;
+  margin: 25px;
   text-align: center;
+  display: inline-block
+} 
+
+.circle:first-child {
+  margin-left: 0px;
 }
 
-a {
-  text-decoration: none;
-  color:#fff;
-  font-family: Verdana, Arial, Sans-Serif;
+.circle:last-child: {
+  margin-right: 0px;
 }
+
