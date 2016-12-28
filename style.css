@@ -1,3 +1,39 @@
+.main {
+  text-align: center;
+  background: url("http://i.imgur.com/S2nuYY3.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+h1, a {
+  font-family:'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.main h1 {
+  color:#fff;
+  margin: 0;
+  font-size: 70px;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+.main p {
+  font-family: Helvetica;
+  color:#fff;
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+
+
+
 .wrapper {
   width: 600px;
   margin: 0 auto;
@@ -10,7 +46,7 @@
   border-radius: 50px;
   border: #6495ed;
   background-color: #69D2E7;
-  margin: 25px;
+  margin: 30px 15px 15px 30px;
   text-align: center;
   display: inline-block
 } 
@@ -22,4 +58,6 @@
 .circle:last-child: {
   margin-right: 0px;
 }
+
+    
 
