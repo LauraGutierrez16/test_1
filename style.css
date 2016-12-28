@@ -2,8 +2,8 @@ div {
   height: 50px;
   width: 120px;
   border: #6495ed;
-  background-color: #bcd2ee;
-  border-radius: 5px;
+  background-color: #69D2E7;
+  border-radius: 50%;
   margin: auto;
   text-align: center;
 }
@@ -11,4 +11,6 @@ div {
 a {
   text-decoration: none;
   color:#fff;
-  font-family: MV Boli, sans-serif;
+  font-family: Verdana, Arial, Sans-Serif;
+  opacity: 0.5;
+}
