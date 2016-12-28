@@ -7,3 +7,8 @@ div {
   margin: auto;
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+  color:#fff;
+  font-family: MV Boli, sans-serif;
